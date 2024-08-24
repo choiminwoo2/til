@@ -42,3 +42,34 @@ func main() {
 }
 ```
 
+## 3. Go의 반복문은 다른 언어와 같지만 선언 부에 소괄호를 사용하지 않습니다.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    sum := 0
+    for i := 0; i < 10; i++ {
+        sum += i
+    }
+    fmt.Println(sum)
+}
+```
+
+## 4. Go에서는 while문 대신 for {} 로 무한 루프를 선언합니다.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    for {
+    }
+}
+```
+
+
+
